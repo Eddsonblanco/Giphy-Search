@@ -1,0 +1,33 @@
+body{
+    background:url(https://cdn.dribbble.com/users/588874/screenshots/2341875/dribbble.png) no-repeat center center fixed;
+    background-size: cover;
+    
+}
+
+.bgimg{
+    background: #7AB973;
+    color: #ffffff;  
+}
+
+h1{
+    font-size: 40px;
+}
+
+#add-gif{
+    margin: 15px 0 15px 5px ;
+}
+label{
+    color: #ffffff;
+    font-size: 25px;
+}
+
+img{
+    width: 150px;
+    height: auto;
+    margin: 10px;
+}
+
+.gif-container{
+    max-width: 1000px;
+}
+

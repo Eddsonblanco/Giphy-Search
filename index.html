@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.0.js"
+        integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
+    <title>giphy</title>
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid border border-dark bgimg">
+        <div class="container bg">
+            <h1 class="display-4">GifTastic</h1>
+            <p class="lead">Search and Find your favorite animal gif </p>
+        </div>
+    </div>
+    <div class="container main">
+        <div class="row">
+            <div class="col-8 button-container">
+            <div id="buttons-view"></div>  
+        </div>
+        <form id="col-3 movie-form">
+            <label for="gif-input"></label>
+            <input type="text" onfocus="this.value='' "  id="gif-input">
+            <br>
+            <button type="submit" class="btn btn btn-outline-secondary" id="add-gif">
+                    <i class="fa fa-search"></i> Add an Animal:</button>
+        </form>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <div class="gif-container">
+                    <div id="gif" class="d-flex flex-wrap m-2 " >
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+        <script src="assets/js/js.js"></script>
+    </div>
+</body>
+
+</html>
